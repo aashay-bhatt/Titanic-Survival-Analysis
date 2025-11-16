@@ -5,6 +5,9 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 ------
 
+
+---
+
 ## 🎯 Objectives
 
 - Explore **survival patterns** across gender, class, and embarkation port.
@@ -35,6 +38,32 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 ---
 
+## 📈 Results & Findings
+
+### Notebook 1: Survival Patterns
+- **Overall survival rate:** ~38% of passengers survived.  
+- **By gender:**
+  - Female survival rate: ~74%  
+  - Male survival rate: ~19%  
+- **By class:**
+  - First Class survival rate: ~63%  
+  - Second Class survival rate: ~47%  
+  - Third Class survival rate: ~24%  
+- **By embarkation port:**
+  - Cherbourg passengers had the highest survival rate (~55%).  
+  - Southampton passengers had the lowest (~33%).  
+
+### Notebook 2: Family and Social Structure
+- **Traveling alone vs. with family:**
+  - Alone survival rate: ~30%  
+  - With family survival rate: ~50%  
+- **Family size effect:**
+  - Small families (2–4 members) had better survival odds than very large families (>5).  
+- **Engineered feature (`family_status`):**
+  - Passengers labeled `"with family"` showed consistently higher survival rates compared to `"alone"`.  
+
+---
+
 ## 📊 Visualizations
 
 - Bar plots of survival by gender and class
@@ -56,7 +85,7 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 - Complete Notebook 3 (Age and Demographics).
 - Add predictive modeling (logistic regression, decision trees).
-- Enhance README with results and key insights.
+- Enhance README with visualization previews.
 
 ---
 
