@@ -5,9 +5,6 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 ------
 
-
----
-
 ## 🎯 Objectives
 
 - Explore **survival patterns** across gender, class, and embarkation port.
