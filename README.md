@@ -30,9 +30,7 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 ### 3. Age and Demographics (Upcoming)
 - What is the age distribution of survivors vs. non-survivors?
-- Are there survival differences across age groups (children, adults, seniors)?
-- How does survival vary by titles (Mr., Mrs., Miss) extracted from names?
-
+- Are there survival differences across age groups (children, adults, seniors)
 ---
 
 ## 📈 Results & Findings
@@ -57,7 +55,12 @@ The project is divided into thematic notebooks to answer specific questions abou
 - **Family size effect:**
   - Small families (2–4 members) had better survival odds than very large families (>5).  
 - **Engineered feature (`family_status`):**
-  - Passengers labeled `"with family"` showed consistently higher survival rates compared to `"alone"`.  
+  - Passengers labeled `"with family"` showed consistently higher survival rates compared to `"alone"`.
+ 
+### Notebook 3: Age and Demographics
+- Age distribution: Children had significantly higher survival rates compared to adults and seniors
+- Age groups: Survival odds declined with age, especially for men
+- Demographic insights: Younger passengers and women had the strongest survival advantage
 
 ---
 
@@ -65,7 +68,6 @@ The project is divided into thematic notebooks to answer specific questions abou
 
 - Bar plots of survival by gender and class
 - Histograms of family size vs. survival
-- KDE plots of age distributions
 - Heatmaps of survival rates by multiple features
 
 ---
@@ -75,14 +77,6 @@ The project is divided into thematic notebooks to answer specific questions abou
 - **Python** (Pandas, NumPy)
 - **Seaborn** & **Matplotlib** for visualization
 - **Jupyter Notebook** for analysis
-
----
-
-## ✅ Next Steps
-
-- Complete Notebook 3 (Age and Demographics).
-- Add predictive modeling (logistic regression, decision trees).
-- Enhance README with visualization previews.
 
 ---
 
